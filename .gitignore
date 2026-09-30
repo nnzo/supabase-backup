@@ -1,0 +1,5 @@
+# Never commit credentials or backup data
+.env
+backups/
+logs/
+node_modules/

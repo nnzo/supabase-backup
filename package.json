@@ -1,0 +1,24 @@
+{
+  "name": "supabase-backup",
+  "version": "1.0.0",
+  "description": "Cron-friendly backup tool for Supabase Postgres databases (roles, schema, data) with per-backup restore instructions",
+  "homepage": "https://github.com/nnzo/supabase-backup#readme",
+  "bugs": {
+    "url": "https://github.com/nnzo/supabase-backup/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nnzo/supabase-backup.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "backup.js",
+  "scripts": {
+    "backup": "node backup.js",
+    "backup:dry-run": "node backup.js --dry-run"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
